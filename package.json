@@ -5,7 +5,8 @@
   "homepage": "https://github.com/Serhii-Soloviov/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /parcel-project-template/",
+    "push": "git add . && git commit -m 'update' && git push"
   },
   "repository": {
     "type": "git",
